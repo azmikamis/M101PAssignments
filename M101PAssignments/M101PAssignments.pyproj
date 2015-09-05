@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cc01ff66-9079-4ccc-a142-3edf05e82e3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hw3-1.py</StartupFile>
+    <StartupFile>hw5-1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,7 @@
     <Compile Include="hw1-2.py" />
     <Compile Include="hw1-3.py" />
     <Compile Include="hw2-1.py" />
+    <Compile Include="hw5-1.py" />
     <Compile Include="hw3-1.py" />
     <Compile Include="hw2-2.py" />
   </ItemGroup>
@@ -37,10 +38,12 @@
     <Folder Include="handouts\" />
     <Folder Include="handouts\homework_2_1\" />
     <Folder Include="handouts\homework_3_1\" />
+    <Folder Include="handouts\homework_5_1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="handouts\homework_2_1\grades.json" />
     <Content Include="handouts\homework_3_1\students.json" />
+    <Content Include="handouts\homework_5_1\posts.json" />
   </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
